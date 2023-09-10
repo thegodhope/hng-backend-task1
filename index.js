@@ -25,7 +25,7 @@ app.get("/api", (req, res) => {
   const current_day = new Date().toLocaleString("en-US", { weekday: "long" });
   const utc_time = new Date().toISOString().slice(0, 19) + "Z";
   const githubFileUrl =
-    "https://github.com/thegodhope/hng-backend-task1.git/index.js";
+    "https://github.com/thegodhope/hng-backend-task1/blob/main/index.js";
   const githubRepoUrl = "https://github.com/thegodhope/hng-backend-task1.git";
 
   // send response as json

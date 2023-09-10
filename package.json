@@ -1,18 +1,18 @@
 {
-  "name": "stageone",
+  "name": "task",
   "version": "1.0.0",
-  "description": "simple server",
-  "main": "index.js",
+  "description": "HNGX Backend task 1",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thegodhope/hng-backend-task1.git"
+    "url": "git+https://github.com/thegodhope/hng-backend-task1.git"
   },
   "keywords": [
-    "get",
-    "request"
+    "API",
+    "GET"
   ],
   "author": "Idorenyin Etim",
   "license": "ISC",
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/thegodhope/hng-backend-task1#readme",
   "dependencies": {
-    "nodemon": "^3.0.1"
+    "express": "^4.18.2"
   }
 }
